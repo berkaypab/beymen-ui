@@ -6358,3 +6358,103 @@
 20-06-2021 12:37:51.172 [Gauge] [DEBUG] Found 1 files
 20-06-2021 12:37:51.485 [Gauge] [INFO] Initializing concepts cache with 0 concepts
 20-06-2021 12:37:51.510 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:02:20.800 [Gauge] [INFO] Watching directory: D:\dersler\tez\beymen_ui\beymen_ui\specs
+20-06-2021 16:02:20.800 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+20-06-2021 16:02:21.556 [Gauge] [DEBUG] Found 1 files
+20-06-2021 16:02:21.563 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:02:21.567 [Gauge] [INFO] Initializing specs cache with 1 specs
+20-06-2021 16:02:21.567 [Gauge] [DEBUG] Adding specs from D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:02:21.567 [Gauge] [INFO] Initializing steps cache with 1 steps
+20-06-2021 16:02:21.567 [Gauge] [INFO] Gauge daemon initialized and listening on port: 54532
+20-06-2021 16:16:04.562 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:16:04.576 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:16:08.747 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"1\" saniye bekle" > 
+20-06-2021 16:16:08.747 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<1> saniye bekle" parameters:"1" > > 
+20-06-2021 16:16:08.781 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"15\" saniye bekle" > 
+20-06-2021 16:16:08.781 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<15> saniye bekle" parameters:"15" > > 
+20-06-2021 16:16:11.344 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"12\" saniye bekle" > 
+20-06-2021 16:16:11.344 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<12> saniye bekle" parameters:"12" > > 
+20-06-2021 16:16:13.551 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:16:13.556 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:19:55.636 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:19:55.796 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:19:56.759 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+20-06-2021 16:19:56.762 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 21:55:05.622 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 22:58:36.798 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:02:50.079 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:02:50.100 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:02:50.199 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:02:50.205 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:03:30.386 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:03:30.387 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:03:57.281 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:03:57.472 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:03:59.085 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.085 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.094 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.094 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.147 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.175 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.175 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.175 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.175 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.175 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.176 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.389 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.389 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.419 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.419 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.420 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.420 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.443 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.443 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.443 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.443 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.499 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.499 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.511 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.511 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.534 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.534 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:03:59.535 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:03:59.535 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.202 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.202 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.203 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.203 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.221 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.222 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.222 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.222 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.257 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.257 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.258 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.258 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.278 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.279 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.279 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+21-06-2021 23:04:00.279 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+21-06-2021 23:04:00.473 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"K" > 
+21-06-2021 23:04:00.473 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"K" parameterizedStepValue:"K" > > 
+21-06-2021 23:04:00.489 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+21-06-2021 23:04:00.489 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Be\304\237enilen \303\274r\303\274n sepete eklenir" parameterizedStepValue:"Be\304\237enilen \303\274r\303\274n sepete eklenir" > allSteps:<stepValue:"ikinci sayfa ac\304\261l\304\261r ve gosterimde oldugu dogrulanir" parameterizedStepValue:"ikinci sayfa ac\304\261l\304\261r ve gosterimde oldugu dogrulanir" > allSteps:<stepValue:"5. \303\274r\303\274n se\303\247ilir ve detay sayfas\304\261na gidilir" parameterizedStepValue:"5. \303\274r\303\274n se\303\247ilir ve detay sayfas\304\261na gidilir" > allSteps:<stepValue:"\303\234r\303\274n detay\304\261nda be\304\237en butonu t\304\261klan\304\261r" parameterizedStepValue:"\303\234r\303\274n detay\304\261nda be\304\237en butonu t\304\261klan\304\261r" > allSteps:<stepValue:"K\304\261r\304\261k link kontrol\303\274 yap\304\261l\304\261r" parameterizedStepValue:"K\304\261r\304\261k link kontrol\303\274 yap\304\261l\304\261r" > allSteps:<stepValue:"Kullan\304\261c\304\261 ad\304\261 , \305\237ifresi girilir ve giri\305\237 yap butonu t\304\261klan\304\261r" parameterizedStepValue:"Kullan\304\261c\304\261 ad\304\261 , \305\237ifresi girilir ve giri\305\237 yap butonu t\304\261klan\304\261r" > allSteps:<stepValue:"Fiyat kar\305\237\304\261la\305\237t\304\261rmas\304\261 yap\304\261l\304\261r" parameterizedStepValue:"Fiyat kar\305\237\304\261la\305\237t\304\261rmas\304\261 yap\304\261l\304\261r" > allSteps:<stepValue:"Sepete eklenen \303\274r\303\274n kald\304\261r\304\261l\304\261r" parameterizedStepValue:"Sepete eklenen \303\274r\303\274n kald\304\261r\304\261l\304\261r" > allSteps:<stepValue:"Kategoriler secilir ve urunlerin listelendigi dogrulanir" parameterizedStepValue:"Kategoriler secilir ve urunlerin listelendigi dogrulanir" > allSteps:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > allSteps:<stepValue:"\303\234r\303\274n sepete eklendi popup kontrol\303\274 yap\304\261l\304\261r" parameterizedStepValue:"\303\234r\303\274n sepete eklendi popup kontrol\303\274 yap\304\261l\304\261r" > allSteps:<stepValue:"Sitenin a\303\247\304\261l\304\261p a\303\247\304\261lmad\304\261\304\237\304\261 kontrol edilir" parameterizedStepValue:"Sitenin a\303\247\304\261l\304\261p a\303\247\304\261lmad\304\261\304\237\304\261 kontrol edilir" > allSteps:<stepValue:"Giri\305\237 yap tab\304\261n\304\261n \303\274st\303\274ne gelinir ve giri\305\237 yap butonuna t\304\261klan\304\261r." parameterizedStepValue:"Giri\305\237 yap tab\304\261n\304\261n \303\274st\303\274ne gelinir ve giri\305\237 yap butonuna t\304\261klan\304\261r." > allSteps:<stepValue:"Arama k\304\261sm\304\261na telefon yaz\304\261l\304\261r ve arama yap\304\261l\304\261r" parameterizedStepValue:"Arama k\304\261sm\304\261na telefon yaz\304\261l\304\261r ve arama yap\304\261l\304\261r" > allSteps:<stepValue:"Sepetim sayfas\304\261na gidilir" parameterizedStepValue:"Sepetim sayfas\304\261na gidilir" > allSteps:<stepValue:"Sepette \303\274r\303\274n olmad\304\261\304\237\304\261 do\304\237rulan\304\261r" parameterizedStepValue:"Sepette \303\274r\303\274n olmad\304\261\304\237\304\261 do\304\237rulan\304\261r" > allSteps:<stepValue:"Check url contains {}" parameterizedStepValue:"Check url contains <hepsiburada>" parameters:"hepsiburada" > allSteps:<stepValue:"\303\234r\303\274n listensine eklenir ve popup kontrolu yap\304\261l\304\261r" parameterizedStepValue:"\303\234r\303\274n listensine eklenir ve popup kontrolu yap\304\261l\304\261r" > allSteps:<stepValue:"Kullan\304\261c\304\261 panelindeki be\304\237endiklerim t\304\261klan\304\261r" parameterizedStepValue:"Kullan\304\261c\304\261 panelindeki be\304\237endiklerim t\304\261klan\304\261r" > > 
+21-06-2021 23:04:00.490 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+21-06-2021 23:04:00.490 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+21-06-2021 23:04:01.726 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"K\304\261" > 
+21-06-2021 23:04:01.726 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"K\304\261" parameterizedStepValue:"K\304\261" > > 
+21-06-2021 23:04:04.350 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:04:04.359 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:13:06.044 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:13:06.046 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:13:10.023 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+21-06-2021 23:13:10.025 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+22-06-2021 20:18:03.095 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+22-06-2021 21:50:59.785 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
