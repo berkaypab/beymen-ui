@@ -87,7 +87,11 @@ public class StepImplementation {
         methods.click(selectCategory.subCategory);
         logger.info("alt kategori secildi");
         tempString = methods.getText(selectCategory.productQuantity);
-        tempInteger = Integer.parseInt(tempString);
+        String str = tempString;
+        String resultStr="";
+        resultStr = resultStr + str.charAt(1)+str.charAt(2)+str.charAt(4)+str.charAt(5)+str.charAt(6);
+
+        tempInteger = Integer.parseInt(resultStr);
         Assert.assertTrue("Ürün Bulunamadı", tempInteger > 0);
         logger.info("urun bulunamadi kontolu yapildi");
         tempInteger = 0;

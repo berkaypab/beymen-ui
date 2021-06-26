@@ -2,7 +2,7 @@ Specification Heading
 =====================
 
 hepsiburada.com
---------------------------
+---------------------------------------------
 * Check url contains "hepsiburada"
 * Sitenin açılıp açılmadığı kontrol edilir
 * Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.
@@ -16,7 +16,7 @@ hepsiburada.com
 * Kullanıcı panelindeki beğendiklerim tıklanır
 * Fiyat karşılaştırması yapılır
 * Beğenilen ürün sepete eklenir
-* "12" saniye bekle
+* "2" saniye bekle
 * Ürün sepete eklendi popup kontrolü yapılır
 * "2" saniye bekle
 * Sepetim sayfasına gidilir

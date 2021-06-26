@@ -1,0 +1,124 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 803milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 803"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54010"}
+{"logLevel":"info","message":"Listening on port:54010"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getUrl' and 'StepImplementation.getUrl'"}
+{"logLevel":"debug","message":"Found Check url contains {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getNthProduct' and 'StepImplementation.getNthProduct'"}
+{"logLevel":"debug","message":"Found 5. ürün seçilir ve detay sayfasına gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isEmptyCart' and 'StepImplementation.isEmptyCart'"}
+{"logLevel":"debug","message":"Found Sepette ürün olmadığı doğrulanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.signInHover' and 'StepImplementation.signInHover'"}
+{"logLevel":"debug","message":"Found Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.searchByTextOnSearchBox' and 'StepImplementation.searchByTextOnSearchBox'"}
+{"logLevel":"debug","message":"Found Arama kısmına telefon yazılır ve arama yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.printPricesAndFormat' and 'StepImplementation.printPricesAndFormat'"}
+{"logLevel":"debug","message":"Found Print prices in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.addToCart' and 'StepImplementation.addToCart'"}
+{"logLevel":"debug","message":"Found Beğenilen ürün sepete eklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.popUpControl' and 'StepImplementation.popUpControl'"}
+{"logLevel":"debug","message":"Found Ürün listensine eklenir ve popup kontrolu yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectCategories' and 'StepImplementation.selectCategories'"}
+{"logLevel":"debug","message":"Found Kategoriler secilir ve urunlerin listelendigi dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.req' and 'StepImplementation.req'"}
+{"logLevel":"debug","message":"Found Kırık link kontrolü yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToCart' and 'StepImplementation.goToCart'"}
+{"logLevel":"debug","message":"Found Sepetim sayfasına gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySecond' and 'StepImplementation.waitBySecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.deleteProduct' and 'StepImplementation.deleteProduct'"}
+{"logLevel":"debug","message":"Found Sepete eklenen ürün kaldırılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isProductAddedToCartPopupControl' and 'StepImplementation.isProductAddedToCartPopupControl'"}
+{"logLevel":"debug","message":"Found Ürün sepete eklendi popup kontrolü yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pagination' and 'StepImplementation.pagination'"}
+{"logLevel":"debug","message":"Found ikinci sayfa acılır ve gosterimde oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.priceCompare' and 'StepImplementation.priceCompare'"}
+{"logLevel":"debug","message":"Found Fiyat karşılaştırması yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.writeDiff' and 'StepImplementation.writeDiff'"}
+{"logLevel":"debug","message":"Found Write difference value to txt file in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendUserNameAndPassword' and 'StepImplementation.sendUserNameAndPassword'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getTitleAndCheck' and 'StepImplementation.getTitleAndCheck'"}
+{"logLevel":"debug","message":"Found Sitenin açılıp açılmadığı kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.like' and 'StepImplementation.like'"}
+{"logLevel":"debug","message":"Found Ürün detayında beğen butonu tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToLiked' and 'StepImplementation.goToLiked'"}
+{"logLevel":"debug","message":"Found Kullanıcı panelindeki beğendiklerim tıklanır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBeğenilen ürün sepete eklenir : public void addToCart()"}
+{"logLevel":"debug","message":"\tÜrün detayında beğen butonu tıklanır : public void like()"}
+{"logLevel":"debug","message":"\tCheck url contains {} : public void getUrl(String text)"}
+{"logLevel":"debug","message":"\tKategoriler secilir ve urunlerin listelendigi dogrulanir : public void selectCategories()"}
+{"logLevel":"debug","message":"\tÜrün listensine eklenir ve popup kontrolu yapılır : public void popUpControl()"}
+{"logLevel":"debug","message":"\tArama kısmına telefon yazılır ve arama yapılır : public void searchByTextOnSearchBox() throws InterruptedException"}
+{"logLevel":"debug","message":"\tÜrün sepete eklendi popup kontrolü yapılır : public void isProductAddedToCartPopupControl()"}
+{"logLevel":"debug","message":"\tSepete eklenen ürün kaldırılır : public void deleteProduct()"}
+{"logLevel":"debug","message":"\tKırık link kontrolü yapılır : public void req() throws IOException"}
+{"logLevel":"debug","message":"\tGiriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır. : public void signInHover() throws InterruptedException"}
+{"logLevel":"debug","message":"\tFiyat karşılaştırması yapılır : public void priceCompare()"}
+{"logLevel":"debug","message":"\tKullanıcı panelindeki beğendiklerim tıklanır : public void goToLiked() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSepette ürün olmadığı doğrulanır : public void isEmptyCart()"}
+{"logLevel":"debug","message":"\tSitenin açılıp açılmadığı kontrol edilir : public void getTitleAndCheck()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySecond(ınt x)"}
+{"logLevel":"debug","message":"\tPrint prices : public void printPricesAndFormat()"}
+{"logLevel":"debug","message":"\tikinci sayfa acılır ve gosterimde oldugu dogrulanir : public void pagination()"}
+{"logLevel":"debug","message":"\tWrite difference value to txt file : public void writeDiff() throws IOException"}
+{"logLevel":"debug","message":"\t5. ürün seçilir ve detay sayfasına gidilir : public void getNthProduct()"}
+{"logLevel":"debug","message":"\tSepetim sayfasına gidilir : public void goToCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır : public void sendUserNameAndPassword()"}
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 44512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624634190.139][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1624634190.139][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Haz 25, 2021 6:16:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Check url contains {}' using 'class StepImplementation.getUrl"}
+{"logLevel":"debug","message":"Executing 'Sitenin açılıp açılmadığı kontrol edilir' using 'class StepImplementation.getTitleAndCheck"}
+{"logLevel":"debug","message":"Executing 'Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.' using 'class StepImplementation.signInHover"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır' using 'class StepImplementation.sendUserNameAndPassword"}
+kullanici adi girildi
+abc
+kullanici sifresi girildi
+giris butonuna tiklandi
+{"logLevel":"debug","message":"Executing 'Arama kısmına telefon yazılır ve arama yapılır' using 'class StepImplementation.searchByTextOnSearchBox"}
+arama label'ina samsung yazildi
+arama butonuna tiklandi
+{"logLevel":"debug","message":"Executing 'Kategoriler secilir ve urunlerin listelendigi dogrulanir' using 'class StepImplementation.selectCategories"}
+ana kategori secildi
+alt kategori secildi
+urun bulunamadi kontolu yapildi
+{"logLevel":"debug","message":"Executing 'ikinci sayfa acılır ve gosterimde oldugu dogrulanir' using 'class StepImplementation.pagination"}
+Bir sonraki sayfaya gecildi
+{"logLevel":"debug","message":"Executing '5. ürün seçilir ve detay sayfasına gidilir' using 'class StepImplementation.getNthProduct"}
+5. eleman secildi
+{"logLevel":"debug","message":"Executing 'Ürün detayında beğen butonu tıklanır' using 'class StepImplementation.like"}
+urun begenildi
+{"logLevel":"debug","message":"Executing 'Ürün listensine eklenir ve popup kontrolu yapılır' using 'class StepImplementation.popUpControl"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı panelindeki beğendiklerim tıklanır' using 'class StepImplementation.goToLiked"}
+Begendiklerim alanina gidildi
+{"logLevel":"debug","message":"Executing 'Fiyat karşılaştırması yapılır' using 'class StepImplementation.priceCompare"}
+{"logLevel":"debug","message":"Executing 'Beğenilen ürün sepete eklenir' using 'class StepImplementation.addToCart"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySecond"}
+Thread 2 saniye bekletildi
+{"logLevel":"debug","message":"Executing 'Ürün sepete eklendi popup kontrolü yapılır' using 'class StepImplementation.isProductAddedToCartPopupControl"}
+Urun sepete eklendi
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySecond"}
+Thread 2 saniye bekletildi
+{"logLevel":"debug","message":"Executing 'Sepetim sayfasına gidilir' using 'class StepImplementation.goToCart"}
+Sepete gidildi
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySecond"}
+Thread 2 saniye bekletildi
+{"logLevel":"debug","message":"Executing 'Sepete eklenen ürün kaldırılır' using 'class StepImplementation.deleteProduct"}
+ürün sepetten silindi
+{"logLevel":"debug","message":"Executing 'Sepette ürün olmadığı doğrulanır' using 'class StepImplementation.isEmptyCart"}
+Sepette ürün olmadığı doğrulandı
