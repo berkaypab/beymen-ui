@@ -6771,3 +6771,66 @@
 27-06-2021 02:59:27.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Print prices" parameterizedStepValue:"Print prices"}}
 27-06-2021 02:59:27.615 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Write difference value to txt file"}
 27-06-2021 02:59:27.615 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Write difference value to txt file" parameterizedStepValue:"Write difference value to txt file"}}
+27-06-2021 03:37:31.889 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+28-06-2021 01:01:33.676 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+03-07-2021 14:03:39.772 [Gauge] [INFO] Watching directory: D:\dersler\tez\beymen_ui\beymen_ui\specs
+03-07-2021 14:03:39.820 [Gauge] [DEBUG] Found 1 files
+03-07-2021 14:03:40.289 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-07-2021 14:03:40.339 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+03-07-2021 14:03:40.342 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-07-2021 14:03:40.342 [Gauge] [DEBUG] Adding specs from D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+03-07-2021 14:03:40.342 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-07-2021 14:03:40.342 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53538
+04-07-2021 04:41:01.322 [Gauge] [INFO] Watching directory: D:\dersler\tez\beymen_ui\beymen_ui\specs
+04-07-2021 04:41:01.356 [Gauge] [DEBUG] Found 1 files
+04-07-2021 04:41:01.526 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-07-2021 04:41:01.544 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+04-07-2021 04:41:33.376 [Gauge] [INFO] Watching directory: D:\dersler\tez\beymen_ui\beymen_ui\specs
+04-07-2021 04:41:33.376 [Gauge] [DEBUG] Found 1 files
+04-07-2021 04:41:33.377 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-07-2021 04:41:33.377 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-07-2021 04:41:33.377 [Gauge] [DEBUG] Adding specs from D:\dersler\tez\beymen_ui\beymen_ui\specs\example.spec
+04-07-2021 04:41:33.377 [Gauge] [INFO] Initializing steps cache with 1 steps
+04-07-2021 04:41:33.377 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50276
+04-07-2021 04:41:51.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sitenin açılıp açılmadığı kontrol edilir"}
+04-07-2021 04:41:51.670 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sitenin açılıp açılmadığı kontrol edilir" parameterizedStepValue:"Sitenin açılıp açılmadığı kontrol edilir"}}
+04-07-2021 04:41:51.702 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> saniye bekle"}
+04-07-2021 04:41:51.706 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} saniye bekle" parameterizedStepValue:"<key> saniye bekle" parameters:"key"}}
+04-07-2021 04:41:51.894 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check url contains \"hepsiburada\""}
+04-07-2021 04:41:51.897 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check url contains {}" parameterizedStepValue:"Check url contains <hepsiburada>" parameters:"hepsiburada"}}
+04-07-2021 04:41:51.913 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır."}
+04-07-2021 04:41:51.917 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır." parameterizedStepValue:"Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır."}}
+04-07-2021 04:41:51.917 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır"}
+04-07-2021 04:41:51.917 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır" parameterizedStepValue:"Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır"}}
+04-07-2021 04:41:51.917 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Arama kısmına telefon yazılır ve arama yapılır"}
+04-07-2021 04:41:51.917 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Arama kısmına telefon yazılır ve arama yapılır" parameterizedStepValue:"Arama kısmına telefon yazılır ve arama yapılır"}}
+04-07-2021 04:41:51.918 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Kategoriler secilir ve urunlerin listelendigi dogrulanir"}
+04-07-2021 04:41:51.918 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Kategoriler secilir ve urunlerin listelendigi dogrulanir" parameterizedStepValue:"Kategoriler secilir ve urunlerin listelendigi dogrulanir"}}
+04-07-2021 04:41:51.918 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"ikinci sayfa acılır ve gosterimde oldugu dogrulanir"}
+04-07-2021 04:41:51.918 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"ikinci sayfa acılır ve gosterimde oldugu dogrulanir" parameterizedStepValue:"ikinci sayfa acılır ve gosterimde oldugu dogrulanir"}}
+04-07-2021 04:41:51.918 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"5. ürün seçilir ve detay sayfasına gidilir"}
+04-07-2021 04:41:51.918 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"5. ürün seçilir ve detay sayfasına gidilir" parameterizedStepValue:"5. ürün seçilir ve detay sayfasına gidilir"}}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ürün detayında beğen butonu tıklanır"}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ürün detayında beğen butonu tıklanır" parameterizedStepValue:"Ürün detayında beğen butonu tıklanır"}}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ürün listensine eklenir ve popup kontrolu yapılır"}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ürün listensine eklenir ve popup kontrolu yapılır" parameterizedStepValue:"Ürün listensine eklenir ve popup kontrolu yapılır"}}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Kullanıcı panelindeki beğendiklerim tıklanır"}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Kullanıcı panelindeki beğendiklerim tıklanır" parameterizedStepValue:"Kullanıcı panelindeki beğendiklerim tıklanır"}}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fiyat karşılaştırması yapılır"}
+04-07-2021 04:41:51.919 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fiyat karşılaştırması yapılır" parameterizedStepValue:"Fiyat karşılaştırması yapılır"}}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Beğenilen ürün sepete eklenir"}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Beğenilen ürün sepete eklenir" parameterizedStepValue:"Beğenilen ürün sepete eklenir"}}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ürün sepete eklendi popup kontrolü yapılır"}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ürün sepete eklendi popup kontrolü yapılır" parameterizedStepValue:"Ürün sepete eklendi popup kontrolü yapılır"}}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sepetim sayfasına gidilir"}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sepetim sayfasına gidilir" parameterizedStepValue:"Sepetim sayfasına gidilir"}}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sepete eklenen ürün kaldırılır"}
+04-07-2021 04:41:51.920 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sepete eklenen ürün kaldırılır" parameterizedStepValue:"Sepete eklenen ürün kaldırılır"}}
+04-07-2021 04:41:51.921 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sepette ürün olmadığı doğrulanır"}
+04-07-2021 04:41:51.921 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sepette ürün olmadığı doğrulanır" parameterizedStepValue:"Sepette ürün olmadığı doğrulanır"}}
+04-07-2021 04:41:51.921 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Kırık link kontrolü yapılır"}
+04-07-2021 04:41:51.921 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Kırık link kontrolü yapılır" parameterizedStepValue:"Kırık link kontrolü yapılır"}}
+04-07-2021 04:41:51.921 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check url contains <key>"}
+04-07-2021 04:41:51.921 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check url contains {}" parameterizedStepValue:"Check url contains <key>" parameters:"key"}}
+04-07-2021 04:41:51.922 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"\"2\" saniye bekle"}
+04-07-2021 04:41:51.929 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2"}}
