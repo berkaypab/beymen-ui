@@ -1,0 +1,11 @@
+[pool-2-thread-1] INFO  org.example.StepImplementation  - kullanici adi girildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - kullanici sifresi girildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - giris butonuna tiklandi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - arama label'ina samsung yazildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - arama butonuna tiklandi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - ana kategori secildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - alt kategori secildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - urun bulunamadi kontolu yapildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - Bir sonraki sayfaya gecildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - 5. eleman secildi
+[pool-2-thread-1] INFO  org.example.StepImplementation  - urun begenildi

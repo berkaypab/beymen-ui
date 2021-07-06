@@ -1,0 +1,10 @@
+base\BaseTest.class
+methods\Methods.class
+locators\SelectCategoryLocators.class
+locators\LoginPageLocators.class
+locators\ProductDetailPageLocators.class
+locators\SearchPageLocators.class
+req\RequiredMethods.class
+StepImplementation.class
+locators\AccountPageLocators.class
+locators\Constants.class
