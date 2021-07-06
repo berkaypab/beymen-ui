@@ -343,9 +343,9 @@
 2021-05-01 20:48:34 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND DATA: streamId=57 padding=0 endStream=true length=143 bytes=000000008a0a434b756c6c616ec4b163c4b1206164c4b1202c20c59f69667265736920676972696c69722076652067697269c59f20796170206275746f6e7520...
 2021-05-01 20:48:34 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:48:34 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:48:36 INFO  org.example.StepImplementation:62 - kullanici adi girildi
-2021-05-01 20:48:37 INFO  org.example.StepImplementation:64 - kullanici sifresi girildi
-2021-05-01 20:48:37 INFO  org.example.StepImplementation:66 - giris butonuna tiklandi
+2021-05-01 20:48:36 INFO  StepImplementation:62 - kullanici adi girildi
+2021-05-01 20:48:37 INFO  StepImplementation:64 - kullanici sifresi girildi
+2021-05-01 20:48:37 INFO  StepImplementation:66 - giris butonuna tiklandi
 2021-05-01 20:48:37 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=57 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:48:37 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND DATA: streamId=57 padding=0 endStream=false length=10 bytes=00000000050a03308016
 2021-05-01 20:48:37 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=57 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -376,8 +376,8 @@
 2021-05-01 20:48:37 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND DATA: streamId=63 padding=0 endStream=true length=113 bytes=000000006c0a344172616d61206bc4b1736dc4b16e612074656c65666f6e2079617ac4b16cc4b172207665206172616d6120796170c4b16cc4b1721234417261...
 2021-05-01 20:48:37 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:48:37 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:48:41 INFO  org.example.StepImplementation:72 - arama label'ina samsung yazildi
-2021-05-01 20:48:41 INFO  org.example.StepImplementation:74 - arama butonuna tiklandi
+2021-05-01 20:48:41 INFO  StepImplementation:72 - arama label'ina samsung yazildi
+2021-05-01 20:48:41 INFO  StepImplementation:74 - arama butonuna tiklandi
 2021-05-01 20:48:41 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=63 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:48:41 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND DATA: streamId=63 padding=0 endStream=false length=10 bytes=00000000050a0330ff21
 2021-05-01 20:48:41 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=63 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -408,9 +408,9 @@
 2021-05-01 20:48:41 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND DATA: streamId=69 padding=0 endStream=true length=121 bytes=00000000740a384b617465676f72696c657220736563696c6972207665207572756e6c6572696e206c697374656c656e6469676920646f6772756c616e697212...
 2021-05-01 20:48:41 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:48:41 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:48:51 INFO  org.example.StepImplementation:80 - ana kategori secildi
-2021-05-01 20:48:55 INFO  org.example.StepImplementation:82 - alt kategori secildi
-2021-05-01 20:48:55 INFO  org.example.StepImplementation:86 - urun bulunamadi kontolu yapildi
+2021-05-01 20:48:51 INFO  StepImplementation:80 - ana kategori secildi
+2021-05-01 20:48:55 INFO  StepImplementation:82 - alt kategori secildi
+2021-05-01 20:48:55 INFO  StepImplementation:86 - urun bulunamadi kontolu yapildi
 2021-05-01 20:48:55 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=69 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:48:55 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND DATA: streamId=69 padding=0 endStream=false length=10 bytes=00000000050a0330ef6a
 2021-05-01 20:48:55 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=69 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -441,7 +441,7 @@
 2021-05-01 20:48:55 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND DATA: streamId=75 padding=0 endStream=true length=115 bytes=000000006e0a35696b696e6369207361796661206163c4b16cc4b17220766520676f73746572696d6465206f6c6475677520646f6772756c616e69721235696b...
 2021-05-01 20:48:55 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:48:55 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:48:58 INFO  org.example.StepImplementation:95 - Bir sonraki sayfaya gecildi
+2021-05-01 20:48:58 INFO  StepImplementation:95 - Bir sonraki sayfaya gecildi
 2021-05-01 20:48:58 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=75 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:48:58 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND DATA: streamId=75 padding=0 endStream=false length=10 bytes=00000000050a0330ea16
 2021-05-01 20:48:58 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=75 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -472,7 +472,7 @@
 2021-05-01 20:48:58 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND DATA: streamId=81 padding=0 endStream=true length=101 bytes=00000000600a2e352e20c3bc72c3bc6e207365c3a7696c697220766520646574617920736179666173c4b16e6120676964696c6972122e352e20c3bc72c3bc6e...
 2021-05-01 20:48:58 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:48:58 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:00 INFO  org.example.StepImplementation:107 - 5. eleman secildi
+2021-05-01 20:49:00 INFO  StepImplementation:107 - 5. eleman secildi
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=81 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND DATA: streamId=81 padding=0 endStream=false length=10 bytes=00000000050a03308d11
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=81 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -503,7 +503,7 @@
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND DATA: streamId=87 padding=0 endStream=true length=93 bytes=00000000580a2ac39c72c3bc6e206465746179c4b16e6461206265c49f656e206275746f6e752074c4b16b6c616ec4b172122ac39c72c3bc6e206465746179c4...
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:00 INFO  org.example.StepImplementation:118 - urun begenildi
+2021-05-01 20:49:00 INFO  StepImplementation:118 - urun begenildi
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=87 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND DATA: streamId=87 padding=0 endStream=false length=10 bytes=00000000050a0330b702
 2021-05-01 20:49:00 DEBUG NettyServerHandler:214 - [id: 0x8e896357, L:/127.0.0.1:49823 - R:/127.0.0.1:49824] OUTBOUND HEADERS: streamId=87 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -936,9 +936,9 @@
 2021-05-01 20:49:22 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=57 padding=0 endStream=true length=143 bytes=000000008a0a434b756c6c616ec4b163c4b1206164c4b1202c20c59f69667265736920676972696c69722076652067697269c59f20796170206275746f6e7520...
 2021-05-01 20:49:22 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:22 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:25 INFO  org.example.StepImplementation:62 - kullanici adi girildi
-2021-05-01 20:49:25 INFO  org.example.StepImplementation:64 - kullanici sifresi girildi
-2021-05-01 20:49:25 INFO  org.example.StepImplementation:66 - giris butonuna tiklandi
+2021-05-01 20:49:25 INFO  StepImplementation:62 - kullanici adi girildi
+2021-05-01 20:49:25 INFO  StepImplementation:64 - kullanici sifresi girildi
+2021-05-01 20:49:25 INFO  StepImplementation:66 - giris butonuna tiklandi
 2021-05-01 20:49:25 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=57 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:25 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=57 padding=0 endStream=false length=10 bytes=00000000050a03309d16
 2021-05-01 20:49:25 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=57 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -969,8 +969,8 @@
 2021-05-01 20:49:25 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=63 padding=0 endStream=true length=113 bytes=000000006c0a344172616d61206bc4b1736dc4b16e612074656c65666f6e2079617ac4b16cc4b172207665206172616d6120796170c4b16cc4b1721234417261...
 2021-05-01 20:49:25 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:25 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:30 INFO  org.example.StepImplementation:72 - arama label'ina samsung yazildi
-2021-05-01 20:49:30 INFO  org.example.StepImplementation:74 - arama butonuna tiklandi
+2021-05-01 20:49:30 INFO  StepImplementation:72 - arama label'ina samsung yazildi
+2021-05-01 20:49:30 INFO  StepImplementation:74 - arama butonuna tiklandi
 2021-05-01 20:49:30 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=63 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:30 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=63 padding=0 endStream=false length=10 bytes=00000000050a0330a223
 2021-05-01 20:49:30 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=63 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1001,9 +1001,9 @@
 2021-05-01 20:49:30 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=69 padding=0 endStream=true length=121 bytes=00000000740a384b617465676f72696c657220736563696c6972207665207572756e6c6572696e206c697374656c656e6469676920646f6772756c616e697212...
 2021-05-01 20:49:30 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:30 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:44 INFO  org.example.StepImplementation:80 - ana kategori secildi
-2021-05-01 20:49:47 INFO  org.example.StepImplementation:82 - alt kategori secildi
-2021-05-01 20:49:47 INFO  org.example.StepImplementation:86 - urun bulunamadi kontolu yapildi
+2021-05-01 20:49:44 INFO  StepImplementation:80 - ana kategori secildi
+2021-05-01 20:49:47 INFO  StepImplementation:82 - alt kategori secildi
+2021-05-01 20:49:47 INFO  StepImplementation:86 - urun bulunamadi kontolu yapildi
 2021-05-01 20:49:47 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=69 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:47 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=69 padding=0 endStream=false length=11 bytes=00000000060a0430e48a01
 2021-05-01 20:49:47 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=69 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1034,7 +1034,7 @@
 2021-05-01 20:49:47 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=75 padding=0 endStream=true length=115 bytes=000000006e0a35696b696e6369207361796661206163c4b16cc4b17220766520676f73746572696d6465206f6c6475677520646f6772756c616e69721235696b...
 2021-05-01 20:49:47 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:47 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:51 INFO  org.example.StepImplementation:95 - Bir sonraki sayfaya gecildi
+2021-05-01 20:49:51 INFO  StepImplementation:95 - Bir sonraki sayfaya gecildi
 2021-05-01 20:49:51 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=75 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:51 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=75 padding=0 endStream=false length=10 bytes=00000000050a0330ce18
 2021-05-01 20:49:51 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=75 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1065,7 +1065,7 @@
 2021-05-01 20:49:51 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=81 padding=0 endStream=true length=101 bytes=00000000600a2e352e20c3bc72c3bc6e207365c3a7696c697220766520646574617920736179666173c4b16e6120676964696c6972122e352e20c3bc72c3bc6e...
 2021-05-01 20:49:51 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:51 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:53 INFO  org.example.StepImplementation:107 - 5. eleman secildi
+2021-05-01 20:49:53 INFO  StepImplementation:107 - 5. eleman secildi
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=81 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=81 padding=0 endStream=false length=10 bytes=00000000050a0330ca11
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=81 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1096,7 +1096,7 @@
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=87 padding=0 endStream=true length=93 bytes=00000000580a2ac39c72c3bc6e206465746179c4b16e6461206265c49f656e206275746f6e752074c4b16b6c616ec4b172122ac39c72c3bc6e206465746179c4...
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:53 INFO  org.example.StepImplementation:118 - urun begenildi
+2021-05-01 20:49:53 INFO  StepImplementation:118 - urun begenildi
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=87 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=87 padding=0 endStream=false length=10 bytes=00000000050a0330b502
 2021-05-01 20:49:53 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=87 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1157,7 +1157,7 @@
 2021-05-01 20:49:54 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=99 padding=0 endStream=true length=107 bytes=00000000660a314b756c6c616ec4b163c4b12070616e656c696e64656b69206265c49f656e64696b6c6572696d2074c4b16b6c616ec4b17212314b756c6c616e...
 2021-05-01 20:49:54 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:54 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:49:58 INFO  org.example.StepImplementation:136 - Begendiklerim alanina gidildi
+2021-05-01 20:49:58 INFO  StepImplementation:136 - Begendiklerim alanina gidildi
 2021-05-01 20:49:58 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=99 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:49:58 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=99 padding=0 endStream=false length=10 bytes=00000000050a0330a421
 2021-05-01 20:49:58 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=99 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1278,7 +1278,7 @@
 2021-05-01 20:49:59 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=123 padding=0 endStream=true length=103 bytes=00000000620a2fc39c72c3bc6e2073657065746520656b6c656e646920706f707570206b6f6e74726f6cc3bc20796170c4b16cc4b172122fc39c72c3bc6e2073...
 2021-05-01 20:49:59 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:49:59 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:50:00 INFO  org.example.StepImplementation:154 - Urun sepete eklendi
+2021-05-01 20:50:00 INFO  StepImplementation:154 - Urun sepete eklendi
 2021-05-01 20:50:00 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=123 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:50:00 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=123 padding=0 endStream=false length=10 bytes=00000000050a0330ce08
 2021-05-01 20:50:00 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=123 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
@@ -1309,7 +1309,7 @@
 2021-05-01 20:50:00 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND DATA: streamId=129 padding=0 endStream=true length=61 bytes=00000000380a1a5365706574696d20736179666173c4b16e6120676964696c6972121a5365706574696d20736179666173c4b16e6120676964696c6972
 2021-05-01 20:50:00 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND PING: ack=false bytes=1234
 2021-05-01 20:50:00 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] INBOUND PING: ack=true bytes=1234
-2021-05-01 20:50:01 INFO  org.example.StepImplementation:163 - Sepete gidildi
+2021-05-01 20:50:01 INFO  StepImplementation:163 - Sepete gidildi
 2021-05-01 20:50:01 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=129 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 2021-05-01 20:50:01 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND DATA: streamId=129 padding=0 endStream=false length=10 bytes=00000000050a0330e909
 2021-05-01 20:50:01 DEBUG NettyServerHandler:214 - [id: 0xbecb7e24, L:/127.0.0.1:50011 - R:/127.0.0.1:50012] OUTBOUND HEADERS: streamId=129 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true

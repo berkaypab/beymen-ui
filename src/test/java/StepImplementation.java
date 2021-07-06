@@ -1,5 +1,3 @@
-package org.example;
-
 import com.thoughtworks.gauge.Step;
 import locators.*;
 import methods.Methods;

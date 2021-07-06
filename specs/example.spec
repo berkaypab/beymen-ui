@@ -1,6 +1,7 @@
 Specification Heading
 =====================
 
+Tags: testo
 hepsiburada.com
 ---------------------------------------------
 * Check url contains "hepsiburada"

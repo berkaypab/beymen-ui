@@ -223,8 +223,8 @@
 [grpc-nio-worker-ELG-3-1] DEBUG io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler  - [id: 0x4fca4ce3, L:/127.0.0.1:51522 - R:/127.0.0.1:51523] INBOUND DATA: streamId=33 padding=0 endStream=true length=81 bytes=000000004c0a244b756c6c616ec4b163c4b1206164c4b120766520c59f69667265736920676972696c697212244b756c6c616ec4b163c4b1206164c4b1207665...
 [grpc-nio-worker-ELG-3-1] DEBUG io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler  - [id: 0x4fca4ce3, L:/127.0.0.1:51522 - R:/127.0.0.1:51523] OUTBOUND PING: ack=false bytes=1234
 [grpc-nio-worker-ELG-3-1] DEBUG io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler  - [id: 0x4fca4ce3, L:/127.0.0.1:51522 - R:/127.0.0.1:51523] INBOUND PING: ack=true bytes=1234
-[pool-2-thread-1] INFO  org.example.StepImplementation  - kullanıcı adı girildi
-[pool-2-thread-1] INFO  org.example.StepImplementation  - kullanıcı şifresi girildi
+[pool-2-thread-1] INFO  StepImplementation  - kullanıcı adı girildi
+[pool-2-thread-1] INFO  StepImplementation  - kullanıcı şifresi girildi
 [grpc-nio-worker-ELG-3-1] DEBUG io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler  - [id: 0x4fca4ce3, L:/127.0.0.1:51522 - R:/127.0.0.1:51523] OUTBOUND HEADERS: streamId=33 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
 [grpc-nio-worker-ELG-3-1] DEBUG io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler  - [id: 0x4fca4ce3, L:/127.0.0.1:51522 - R:/127.0.0.1:51523] OUTBOUND DATA: streamId=33 padding=0 endStream=false length=10 bytes=00000000050a03308111
 [grpc-nio-worker-ELG-3-1] DEBUG io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler  - [id: 0x4fca4ce3, L:/127.0.0.1:51522 - R:/127.0.0.1:51523] OUTBOUND HEADERS: streamId=33 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
