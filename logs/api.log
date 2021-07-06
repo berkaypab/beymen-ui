@@ -6961,3 +6961,10 @@
 07-07-2021 02:07:59.770 [Gauge] [INFO] Gauge daemon initialized and listening on port: 57186
 07-07-2021 02:08:00.227 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
 07-07-2021 02:08:00.229 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\berka\\AppData\\Roaming\\gauge\\plugins\\java\\0.7.3\\libs" > 
+07-07-2021 02:08:08.662 [Gauge] [INFO] Watching directory: D:\dersler\tez\hepsiburada\specs
+07-07-2021 02:08:08.662 [Gauge] [DEBUG] Found 1 files
+07-07-2021 02:08:08.664 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+07-07-2021 02:08:08.665 [Gauge] [INFO] Initializing specs cache with 1 specs
+07-07-2021 02:08:08.665 [Gauge] [DEBUG] Adding specs from D:\dersler\tez\hepsiburada\specs\example.spec
+07-07-2021 02:08:08.665 [Gauge] [INFO] Initializing steps cache with 1 steps
+07-07-2021 02:08:08.665 [Gauge] [INFO] Gauge daemon initialized and listening on port: 57189
