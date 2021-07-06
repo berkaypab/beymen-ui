@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Specification Heading":["specs/example.html"]}};
+var index = {"Tags":{"testo":["specs/example.html"]},"Specs":{"Specification Heading":["specs/example.html"]}};

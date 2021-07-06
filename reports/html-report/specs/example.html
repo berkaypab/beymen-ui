@@ -31,13 +31,13 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="0,1,0" data-total="1">
+      <svg id="pie-chart" data-results="0,0,1" data-total="1">
         <path class="status failed" />
         <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
         <path class="status passed" />
-        <path class="shadow passed" data-status="passed"><title>Passed: 1/1</title></path>
+        <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
         <path class="status skipped" />
-        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
+        <path class="shadow skipped" data-status="skipped"><title>Skipped: 1/1</title></path>
       </svg>
     </div>
   </div>
@@ -47,14 +47,14 @@
     <div class="report_test-result specs">
         <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
         <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
-        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">1</span></div>
-        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
+        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
+        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">1</span></div>
     </div>
     <div class="report_test-result scenarios">
-        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
+        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">2</span></div>
         <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
-        <div class="pass scenario-stats" data-status="passed"><span class="value">1</span></div>
-        <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
+        <div class="skip scenario-stats" data-status="skipped"><span class="value">2</span></div>
     </div>
   </div>
 
@@ -68,15 +68,15 @@
     
     <li>
       <label>Success Rate </label>
-      <span>100%</span>
+      <span>0%</span>
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:01:10</span>
+      <span>00:00:00</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Jul 6, 2021 at 4:19am</span>
+      <span>Jul 7, 2021 at 1:28am</span>
     </li>
   </ul>
 
@@ -115,10 +115,10 @@
         
           <a href="example.html">
              
-              <li class="passed spec-name">
+              <li class="skipped spec-name">
             
               <span id="scenarioName" class="scenarioname">Specification Heading</span>
-              <span id="time" class="time">00:01:10</span>
+              <span id="time" class="time">00:00:00</span>
             </li>
           </a>
           
@@ -137,8 +137,8 @@
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
             <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
-            <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
+            <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
+            <li class="skip"><span class="value">2</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
       </div>
@@ -150,10 +150,17 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:01:10</span>
+        <span class="time">00:00:00</span>
       </div>
 
 	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> testo</span>
+      
+    </div>
   
 
 	</header>
@@ -178,14 +185,13 @@
       
         
 	
-  <div class="scenario-container passed">
-    
+  <div class="scenario-container skipped">
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">hepsiburada.com broken link test</h3>
+    <h3 class="head borderBottom">hepsiburada.com</h3>
     
-    <span class="time">00:01:10</span>
+    <span class="time">00:00:00</span>
 
 	
   
@@ -209,11 +215,7 @@
   <div class="step">
   
   
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class="step-info passed">
+  <div class="step-info skipped">
   
   <ul>
     <li class="step">
@@ -264,6 +266,12 @@
 	</li></ul></div></div>
   
     
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
   
 
   
@@ -276,11 +284,7 @@
   <div class="step">
   
   
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class="step-info passed">
+  <div class="step-info skipped">
   
   <ul>
     <li class="step">
@@ -327,6 +331,12 @@
 	</li></ul></div></div>
   
     
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
   
 
   
@@ -339,11 +349,7 @@
   <div class="step">
   
   
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:02</span>
-    </h5>
-  
-  <div class="step-info passed">
+  <div class="step-info skipped">
   
   <ul>
     <li class="step">
@@ -390,6 +396,12 @@
 	</li></ul></div></div>
   
     
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
   
 
   
@@ -402,11 +414,7 @@
   <div class="step">
   
   
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:02</span>
-    </h5>
-  
-  <div class="step-info passed">
+  <div class="step-info skipped">
   
   <ul>
     <li class="step">
@@ -453,6 +461,12 @@
 	</li></ul></div></div>
   
     
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
   
 
   
@@ -465,11 +479,7 @@
   <div class="step">
   
   
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:10</span>
-    </h5>
-  
-  <div class="step-info passed">
+  <div class="step-info skipped">
   
   <ul>
     <li class="step">
@@ -516,6 +526,12 @@
 	</li></ul></div></div>
   
     
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
   
 
   
@@ -528,11 +544,1361 @@
   <div class="step">
   
   
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:47</span>
-    </h5>
+  <div class="step-info skipped">
   
-  <div class="step-info passed">
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Kategoriler secilir ve urunlerin listelendigi dogrulanir
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        ikinci sayfa acılır ve gosterimde oldugu dogrulanir
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        5. ürün seçilir ve detay sayfasına gidilir
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Ürün detayında beğen butonu tıklanır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Ürün listensine eklenir ve popup kontrolu yapılır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Kullanıcı panelindeki beğendiklerim tıklanır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Fiyat karşılaştırması yapılır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Beğenilen ürün sepete eklenir
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span class="parameter">"2"</span>
+    
+  
+    
+      <span>
+         saniye bekle
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Ürün sepete eklendi popup kontrolü yapılır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span class="parameter">"2"</span>
+    
+  
+    
+      <span>
+         saniye bekle
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Sepetim sayfasına gidilir
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span class="parameter">"2"</span>
+    
+  
+    
+      <span>
+         saniye bekle
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Sepete eklenen ürün kaldırılır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Sepette ürün olmadığı doğrulanır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+	
+	</div>
+
+      
+        
+	
+  <div class="scenario-container skipped">
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">hepsiburada.com broken link test</h3>
+    
+    <span class="time">00:00:00</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+  
+	
+
+  
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Check url contains 
+      </span>
+    
+  
+    
+      <span class="parameter">"hepsiburada"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Sitenin açılıp açılmadığı kontrol edilir
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Arama kısmına telefon yazılır ve arama yapılır
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+  <div class="step-info skipped">
   
   <ul>
     <li class="step">
@@ -578,6 +1944,12 @@
   
 	</li></ul></div></div>
   
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
     
   
 

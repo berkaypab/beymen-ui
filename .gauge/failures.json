@@ -1,9 +1,7 @@
 {
 	"Args": [
 		"run",
-		"--machine-readable",
-		"--hide-suggestion",
-		"--simple-console"
+		"--dir=D:\\dersler\\tez\\hepsiburada-ui-automation\\hepsiburada-ui-automation"
 	],
 	"FailedItems": []
 }
