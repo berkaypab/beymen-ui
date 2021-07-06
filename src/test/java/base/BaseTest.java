@@ -26,7 +26,8 @@ public class BaseTest {
         options.addArguments("--disable-notifications");
 
 
-        WebDriverManager.chromedriver().setup();
+
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver(options);
         driver.get(url);
     }
