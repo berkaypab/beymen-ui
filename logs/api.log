@@ -6933,3 +6933,8 @@
 06-07-2021 03:11:50.548 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check url contains {}" parameterizedStepValue:"Check url contains <key>" parameters:"key" > > 
 06-07-2021 03:11:50.557 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
 06-07-2021 03:11:50.557 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
+06-07-2021 04:08:29.890 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Print prices" > 
+06-07-2021 04:08:29.891 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Print prices" parameterizedStepValue:"Print prices" > > 
+06-07-2021 04:08:29.898 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Write difference value to txt file" > 
+06-07-2021 04:08:29.899 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Write difference value to txt file" parameterizedStepValue:"Write difference value to txt file" > > 
+06-07-2021 04:11:22.816 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\hepsiburada-ui-automation\hepsiburada-ui-automation\specs\example.spec
