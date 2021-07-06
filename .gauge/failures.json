@@ -1,7 +1,9 @@
 {
 	"Args": [
 		"run",
-		"--dir=D:\\dersler\\tez\\hepsiburada-ui-automation\\hepsiburada-ui-automation"
+		"--dir=D:\\dersler\\tez\\hepsiburada"
 	],
-	"FailedItems": []
+	"FailedItems": [
+		"specs\\example.spec:4"
+	]
 }

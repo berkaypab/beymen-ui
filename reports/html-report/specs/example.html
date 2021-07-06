@@ -19,7 +19,7 @@
         <div class="logo">
           <a href=".."><img src="../images/gaugeLogo.png" alt="Report logo"></a>
         </div>
-        <h2 class="project">Project: hepsiburada-ui-automation</h2>
+        <h2 class="project">Project: hepsiburada</h2>
       </div>
     </div>
   </header>
@@ -31,13 +31,13 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="0,0,1" data-total="1">
+      <svg id="pie-chart" data-results="1,0,0" data-total="1">
         <path class="status failed" />
-        <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
+        <path class="shadow failed" data-status="failed"><title>Failed: 1/1</title></path>
         <path class="status passed" />
         <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
         <path class="status skipped" />
-        <path class="shadow skipped" data-status="skipped"><title>Skipped: 1/1</title></path>
+        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
       </svg>
     </div>
   </div>
@@ -46,15 +46,15 @@
   <div class="report_test-results">
     <div class="report_test-result specs">
         <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
-        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
         <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
-        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">1</span></div>
+        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
     </div>
     <div class="report_test-result scenarios">
         <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">2</span></div>
-        <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
-        <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
-        <div class="skip scenario-stats" data-status="skipped"><span class="value">2</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">1</span></div>
+        <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
   </div>
 
@@ -72,11 +72,11 @@
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:00</span>
+      <span>00:01:32</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Jul 7, 2021 at 1:28am</span>
+      <span>Jul 7, 2021 at 2:30am</span>
     </li>
   </ul>
 
@@ -114,11 +114,11 @@
         <ul id="scenarios" class="spec-list">
         
           <a href="example.html">
-             
-              <li class="skipped spec-name">
+            
+              <li class="failed spec-name">
             
               <span id="scenarioName" class="scenarioname">Specification Heading</span>
-              <span id="time" class="time">00:00:00</span>
+              <span id="time" class="time">00:01:32</span>
             </li>
           </a>
           
@@ -133,34 +133,27 @@
   <div id="specificationContainer" class="details">
     <header class="curr-spec">
       <div class="spec-head-wrapper">
-        <h3 class="spec-head" title="D:\dersler\tez\hepsiburada-ui-automation\hepsiburada-ui-automation\specs\example.spec">Specification Heading</h3>
+        <h3 class="spec-head" title="D:\dersler\tez\hepsiburada\specs\example.spec">Specification Heading</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
-            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
-            <li class="skip"><span class="value">2</span><span class="txt">Skipped</span></li>
+            <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
+            <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
       </div>
       <div class="spec-meta">
         <div class="spec-filename">
           <label for="specFileName">File Path</label>
-          <input id="specFileName" value="D:\dersler\tez\hepsiburada-ui-automation\hepsiburada-ui-automation\specs\example.spec" readonly/>
+          <input id="specFileName" value="D:\dersler\tez\hepsiburada\specs\example.spec" readonly/>
           <button class="clipboard-btn" data-clipboard-target="#specFileName" title="Copy to Clipboard">
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:00</span>
+        <span class="time">00:01:32</span>
       </div>
 
 	
-  
-    <div class="tags scenario_tags contentSection">
-      <strong>Tags:</strong>
-      
-        <span> testo</span>
-      
-    </div>
   
 
 	</header>
@@ -185,13 +178,14 @@
       
         
 	
-  <div class="scenario-container skipped">
+  <div class="scenario-container failed">
+    
 
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">hepsiburada.com</h3>
     
-    <span class="time">00:00:00</span>
+    <span class="time">00:00:15</span>
 
 	
   
@@ -215,7 +209,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -266,12 +264,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -284,7 +276,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -331,12 +327,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -349,7 +339,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:02</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -396,12 +390,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -414,7 +402,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:02</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -461,12 +453,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -479,7 +465,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:04</span>
+    </h5>
+  
+  <div class="step-info failed">
   
   <ul>
     <li class="step">
@@ -507,6 +497,28 @@
 
   
     
+        
+  <div class="error-container failed">
+    <div class="exception-container">
+      <div class="exception">
+        <h4 class="error-message">
+          <pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status<br/>from disconnected: received Inspector.detached event<br/>  (Session info: chrome=91.0.4472.124)<br/>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br/>System info: host: &#39;DESKTOP-MK8UR93&#39;, ip: &#39;192.168.0.23&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;1.8.0_281&#39;<br/>Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\berka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>Session ID: c5ce9f9150ff48584f29c1787bf52f86<br/>*** Element info: {Using=css selector, value=div[class*=&#39;desktopOld&#39;]&gt;input[type=&#39;text&#39;]}</pre>
+        </h4>
+        <pre class="stacktrace">sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br/>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br/>java.lang.reflect.Constructor.newInstance(Unknown Source)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br/>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br/>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)<br/>org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)<br/>org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)<br/>org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)<br/>org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:328)<br/>org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:325)<br/>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br/>methods.Methods.findElement(Methods.java:37)<br/>methods.Methods.sendKeys(Methods.java:71)<br/>StepImplementation.searchByTextOnSearchBox(StepImplementation.java:74)<br/></pre>
+      </div>
+      
+        
+          <div class="screenshot-container custom-screenshot-message">
+            <div class="screenshot">
+            <p class="custom-message">To view a screenshot of this failed step, Please set up a <a href="https://docs.gauge.org/writing-specifications/#taking-custom-screenshots">custom screenshot handler.</a></p>
+            </div>
+          </div>
+        
+      
+    </div>
+  </div>
+
+    
     
   
 
@@ -526,12 +538,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -544,7 +550,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -591,12 +601,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -609,7 +613,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -656,12 +664,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -674,7 +676,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -721,12 +727,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -739,7 +739,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -786,12 +790,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -804,7 +802,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -851,12 +853,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -869,7 +865,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -916,12 +916,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -934,7 +928,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -981,12 +979,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -999,7 +991,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1046,12 +1042,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1064,7 +1054,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1115,12 +1109,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1133,7 +1121,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1180,12 +1172,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1198,7 +1184,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1249,12 +1239,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1267,7 +1251,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1314,12 +1302,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1332,7 +1314,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1383,12 +1369,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1401,7 +1381,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1448,12 +1432,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1466,7 +1444,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -1513,12 +1495,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1539,13 +1515,14 @@
       
         
 	
-  <div class="scenario-container skipped">
+  <div class="scenario-container passed">
+    
 
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">hepsiburada.com broken link test</h3>
     
-    <span class="time">00:00:00</span>
+    <span class="time">00:01:16</span>
 
 	
   
@@ -1569,7 +1546,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -1620,12 +1601,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1638,7 +1613,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -1685,12 +1664,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1703,7 +1676,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:02</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -1750,12 +1727,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1768,7 +1739,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:02</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -1815,12 +1790,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1833,7 +1802,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:12</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -1880,12 +1853,6 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
-    
   
 
   
@@ -1898,7 +1865,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:44</span>
+    </h5>
+  
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -1944,12 +1915,6 @@
   
 	</li></ul></div></div>
   
-    
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
-  </div>
-
     
   
 
