@@ -13,14 +13,13 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>4.3.1</version>
-            <scope>test</scope>
+
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.thoughtworks.gauge/gauge-java -->
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
             <version>0.7.3</version>
-            <scope>test</scope>
         </dependency>
 
 
@@ -28,7 +27,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
-            <scope>test</scope>
+
         </dependency>
 
         <dependency>
@@ -60,7 +59,7 @@
                 <version>1.4.0</version>
                 <executions>
                     <execution>
-                        <phase>test</phase>
+                        <phase>compile</phase>
                         <configuration>
                             <specsDir>specs</specsDir>
                         </configuration>
