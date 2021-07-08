@@ -7057,3 +7057,10 @@
 08-07-2021 13:22:34.865 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"2\" saniye bekle" > 
 08-07-2021 13:22:34.865 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<2> saniye bekle" parameters:"2" > > 
 09-07-2021 00:42:24.564 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\hepsiburada\specs\example.spec
+09-07-2021 00:52:35.976 [Gauge] [INFO] Watching directory: D:\dersler\tez\hepsiburada\specs
+09-07-2021 00:52:35.977 [Gauge] [DEBUG] Found 1 files
+09-07-2021 00:52:35.980 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+09-07-2021 00:52:35.981 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2021 00:52:35.981 [Gauge] [DEBUG] Adding specs from D:\dersler\tez\hepsiburada\specs\example.spec
+09-07-2021 00:52:35.981 [Gauge] [INFO] Initializing steps cache with 1 steps
+09-07-2021 00:52:35.981 [Gauge] [INFO] Gauge daemon initialized and listening on port: 49760

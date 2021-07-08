@@ -1,11 +1,10 @@
 {
 	"Args": [
 		"run",
-		"--machine-readable",
-		"--hide-suggestion",
-		"--simple-console"
+		"--dir=D:\\dersler\\tez\\hepsiburada"
 	],
 	"FailedItems": [
-		"specs\\example.spec:4"
+		"specs\\example.spec:4",
+		"specs\\example.spec:29"
 	]
 }

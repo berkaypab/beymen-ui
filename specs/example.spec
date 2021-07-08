@@ -1,8 +1,8 @@
-Specification Heading
-=====================
+#Specification Heading
+
 
 hepsiburada.com
----------------------------------------------
+----------
 * Check url contains "hepsiburada"
 * Sitenin açılıp açılmadığı kontrol edilir
 * Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.
@@ -27,11 +27,11 @@ hepsiburada.com
 
 
 hepsiburada.com broken link test
-----------------------------------------
-* Check url contains "hepsiburada"
-* Sitenin açılıp açılmadığı kontrol edilir
-* Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.
-* Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır
-* Arama kısmına telefon yazılır ve arama yapılır
-* Kırık link kontrolü yapılır
+
+ Check url contains "hepsiburada"
+ Sitenin açılıp açılmadığı kontrol edilir
+ Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.
+ Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır
+ Arama kısmına telefon yazılır ve arama yapılır
+ Kırık link kontrolü yapılır
 
