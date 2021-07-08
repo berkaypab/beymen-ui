@@ -7064,3 +7064,5 @@
 09-07-2021 00:52:35.981 [Gauge] [DEBUG] Adding specs from D:\dersler\tez\hepsiburada\specs\example.spec
 09-07-2021 00:52:35.981 [Gauge] [INFO] Initializing steps cache with 1 steps
 09-07-2021 00:52:35.981 [Gauge] [INFO] Gauge daemon initialized and listening on port: 49760
+09-07-2021 01:22:17.866 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\hepsiburada\specs\example.spec
+09-07-2021 01:22:17.879 [Gauge] [INFO] Spec file added / modified: D:\dersler\tez\hepsiburada\specs\example.spec

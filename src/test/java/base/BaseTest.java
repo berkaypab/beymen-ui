@@ -8,10 +8,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class BaseTest {
 
-    public static WebDriver driver;
+
+    public static void setDriver(RemoteWebDriver driver) {
+        BaseTest.driver = driver;
+    }
+
+    public static RemoteWebDriver driver;
 
     private final String url = "https://www.hepsiburada.com/";
 
@@ -28,7 +34,8 @@ public class BaseTest {
 
 
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver(options);
+
+        BaseTest.setDriver(new ChromeDriver(options));
         driver.get(url);
     }
 
