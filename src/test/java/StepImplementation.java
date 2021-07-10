@@ -44,7 +44,7 @@ public class StepImplementation {
         logger.info("Thread "+x+" saniye bekletildi");
     }
 
-    @Step({"Sitenin açılıp açılmadığı kontrol edilir"})
+    @Step("Sitenin açılıp açılmadığı kontrol edilir")
     public void getTitleAndCheck() {
         Assert.assertEquals(methods.getTitle(), "Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com");
     }

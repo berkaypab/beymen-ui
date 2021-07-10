@@ -1,0 +1,38 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 645milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 645"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49891"}
+{"logLevel":"info","message":"Listening on port:49891"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBeğenilen ürün sepete eklenir : public void addToCart()"}
+{"logLevel":"debug","message":"\tÜrün detayında beğen butonu tıklanır : public void like()"}
+{"logLevel":"debug","message":"\tCheck url contains {} : public void getUrl(String text)"}
+{"logLevel":"debug","message":"\tKategoriler secilir ve urunlerin listelendigi dogrulanir : public void selectCategories()"}
+{"logLevel":"debug","message":"\tÜrün listensine eklenir ve popup kontrolu yapılır : public void popUpControl()"}
+{"logLevel":"debug","message":"\tArama kısmına telefon yazılır ve arama yapılır : public void searchByTextOnSearchBox() throws InterruptedException"}
+{"logLevel":"debug","message":"\tÜrün sepete eklendi popup kontrolü yapılır : public void isProductAddedToCartPopupControl()"}
+{"logLevel":"debug","message":"\tSepete eklenen ürün kaldırılır : public void deleteProduct()"}
+{"logLevel":"debug","message":"\tKırık link kontrolü yapılır : public void req() throws IOException"}
+{"logLevel":"debug","message":"\tGiriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır. : public void signInHover() throws InterruptedException"}
+{"logLevel":"debug","message":"\tFiyat karşılaştırması yapılır : public void priceCompare()"}
+{"logLevel":"debug","message":"\tKullanıcı panelindeki beğendiklerim tıklanır : public void goToLiked() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSepette ürün olmadığı doğrulanır : public void isEmptyCart()"}
+{"logLevel":"debug","message":"\tSitenin açılıp açılmadığı kontrol edilir : public void getTitleAndCheck()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySecond(ınt x)"}
+{"logLevel":"debug","message":"\tPrint prices : public void printPricesAndFormat()"}
+{"logLevel":"debug","message":"\tikinci sayfa acılır ve gosterimde oldugu dogrulanir : public void pagination()"}
+{"logLevel":"debug","message":"\tWrite difference value to txt file : public void writeDiff() throws IOException"}
+{"logLevel":"debug","message":"\t5. ürün seçilir ve detay sayfasına gidilir : public void getNthProduct()"}
+{"logLevel":"debug","message":"\tSepetim sayfasına gidilir : public void goToCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır : public void sendUserNameAndPassword()"}
+{"logLevel":"fatal","message":"No step definition found. Try compiling the source before execution."}

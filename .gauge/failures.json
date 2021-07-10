@@ -1,9 +1,0 @@
-{
-	"Args": [
-		"run",
-		"--dir=D:\\dersler\\tez\\hepsiburada"
-	],
-	"FailedItems": [
-		"specs\\example.spec:4"
-	]
-}

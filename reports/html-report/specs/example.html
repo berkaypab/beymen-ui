@@ -72,11 +72,11 @@
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:21</span>
+      <span>00:00:02</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Jul 9, 2021 at 1:58am</span>
+      <span>Jul 11, 2021 at 1:50am</span>
     </li>
   </ul>
 
@@ -117,8 +117,8 @@
             
               <li class="failed spec-name">
             
-              <span id="scenarioName" class="scenarioname">Specification Heading</span>
-              <span id="time" class="time">00:00:21</span>
+              <span id="scenarioName" class="scenarioname">heading</span>
+              <span id="time" class="time">00:00:02</span>
             </li>
           </a>
           
@@ -133,7 +133,7 @@
   <div id="specificationContainer" class="details">
     <header class="curr-spec">
       <div class="spec-head-wrapper">
-        <h3 class="spec-head" title="D:\dersler\tez\hepsiburada\specs\example.spec">Specification Heading</h3>
+        <h3 class="spec-head" title="D:\dersler\tez\hepsiburada\specs\example.spec">heading</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
             <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
@@ -150,7 +150,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:21</span>
+        <span class="time">00:00:02</span>
       </div>
 
 	
@@ -185,7 +185,7 @@
   <div class="scenario-head">
     <h3 class="head borderBottom">hepsiburada.com</h3>
     
-    <span class="time">00:00:21</span>
+    <span class="time">00:00:02</span>
 
 	
   
@@ -213,7 +213,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info failed">
   
   <ul>
     <li class="step">
@@ -244,6 +244,24 @@
   </div>
 
   
+    
+        
+  <div class="error-container failed">
+    <div class="exception-container">
+      <div class="exception">
+        <h4 class="error-message">
+          <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>from unknown error: web view not found<br/>  (Session info: chrome=91.0.4472.124)<br/>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br/>System info: host: &#39;DESKTOP-MK8UR93&#39;, ip: &#39;192.168.0.23&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;11.0.11&#39;<br/>Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\berka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>Session ID: 6df83bcafc8ac4c94fee827e4deb0c8a</pre>
+        </h4>
+        <pre class="stacktrace">java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br/>java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br/>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br/>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)<br/>org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)<br/>methods.Methods.getCurrentUrl(Methods.java:101)<br/>StepImplementation.getUrl(StepImplementation.java:231)<br/>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>java.base/java.lang.reflect.Method.invoke(Method.java:566)<br/>com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:28)<br/>com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)<br/>com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)<br/>com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)<br/>com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)<br/>com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)<br/>com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)<br/>com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)<br/>com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)<br/>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br/>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br/>java.base/java.lang.Thread.run(Thread.java:829)<br/></pre>
+      </div>
+      
+        
+          
+        
+      
+    </div>
+  </div>
+
     
     
   
@@ -280,7 +298,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -340,10 +358,10 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:14</span>
+      <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info failed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -370,28 +388,6 @@
   </div>
 
   
-    
-        
-  <div class="error-container failed">
-    <div class="exception-container">
-      <div class="exception">
-        <h4 class="error-message">
-          <pre>org.openqa.selenium.WebDriverException: chrome not reachable<br/>  (Session info: chrome=91.0.4472.124)<br/>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br/>System info: host: &#39;DESKTOP-MK8UR93&#39;, ip: &#39;192.168.0.23&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;1.8.0_281&#39;<br/>Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\berka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>Session ID: a9a55b2320f4c62c1a5b249fdb01ef20<br/>*** Element info: {Using=css selector, value=a[title=&#39;Giriş yap&#39;]}</pre>
-        </h4>
-        <pre class="stacktrace">sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br/>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br/>java.lang.reflect.Constructor.newInstance(Unknown Source)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br/>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br/>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br/>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)<br/>org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)<br/>org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)<br/>org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)<br/>org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:328)<br/>org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:325)<br/>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br/>methods.Methods.findElement(Methods.java:37)<br/>methods.Methods.click(Methods.java:62)<br/>StepImplementation.signInHover(StepImplementation.java:57)<br/></pre>
-      </div>
-      
-        
-          <div class="screenshot-container custom-screenshot-message">
-            <div class="screenshot">
-            <p class="custom-message">To view a screenshot of this failed step, Please set up a <a href="https://docs.gauge.org/writing-specifications/#taking-custom-screenshots">custom screenshot handler.</a></p>
-            </div>
-          </div>
-        
-      
-    </div>
-  </div>
-
     
     
   
@@ -1077,73 +1073,6 @@
   
   
     
-      <span class="parameter">"2"</span>
-    
-  
-    
-      <span>
-         saniye bekle
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-  
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class="step">
-  
-  
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class="step-info not-executed">
-  
-  <ul>
-    <li class="step">
-      <div class="step-txt">
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-    
       <span>
         Ürün sepete eklendi popup kontrolü yapılır
       </span>
@@ -1207,142 +1136,8 @@
   
   
     
-      <span class="parameter">"2"</span>
-    
-  
-    
-      <span>
-         saniye bekle
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-  
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class="step">
-  
-  
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class="step-info not-executed">
-  
-  <ul>
-    <li class="step">
-      <div class="step-txt">
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-    
       <span>
         Sepetim sayfasına gidilir
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-  
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class="step">
-  
-  
-    <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class="step-info not-executed">
-  
-  <ul>
-    <li class="step">
-      <div class="step-txt">
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-    
-      <span class="parameter">"2"</span>
-    
-  
-    
-      <span>
-         saniye bekle
       </span>
     
   
@@ -1497,25 +1292,6 @@
     
   
 
-  
-
-  
-    
-  
-    <span><p>hepsiburada.com broken link test</p>
-
-<p>Check url contains “hepsiburada”</p>
-
-<p>Sitenin açılıp açılmadığı kontrol edilir</p>
-
-<p>Giriş yap tabının üstüne gelinir ve giriş yap butonuna tıklanır.</p>
-
-<p>Kullanıcı adı , şifresi girilir ve giriş yap butonu tıklanır</p>
-
-<p>Arama kısmına telefon yazılır ve arama yapılır</p>
-
-<p>Kırık link kontrolü yapılır</p>
-</span>
   
 
   
